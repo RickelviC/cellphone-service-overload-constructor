@@ -67,4 +67,7 @@ public class CellPhone {
     public void dial(String phoneNumber){
         System.out.println(this.owner + "'s Phone is calling " + phoneNumber);
     }
+    public void  dail(CellPhone phone){
+        System.out.println(this.owner + "'s Phone is calling " + phone.getPhoneNumber());
+    }
 }

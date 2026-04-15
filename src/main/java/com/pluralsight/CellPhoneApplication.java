@@ -60,7 +60,9 @@ public class CellPhoneApplication {
         System.out.println("Phone two details");
         printInfo(cellPhone2);
 
-        cellPhone3.dial(cellPhone1.getPhoneNumber());
+        //cellPhone3.dial(cellPhone1.getPhoneNumber());
+
+        cellPhone3.dail(cellPhone1);
 
         cellPhone1.dial(cellPhone2.getPhoneNumber());
 
