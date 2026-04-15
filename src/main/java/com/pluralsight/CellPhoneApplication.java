@@ -6,6 +6,8 @@ public class CellPhoneApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+
+
         System.out.println("Phone one");
         CellPhone cellPhone1 = getInfo(scanner);
 
@@ -73,6 +75,7 @@ public class CellPhoneApplication {
         System.out.println("owner: " + cellPhone.getOwner());
         System.out.println("===============");
     }
+
     public static CellPhone getInfo(Scanner scanner){
         CellPhone cellPhone = new CellPhone();
 
